@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer{
     display: flex;
     justify-content: center;
@@ -7,4 +8,15 @@
     width: 100%;
     color: white;
     margin-top: 10px;
+=======
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+    color: white;
+    margin-top: 10px;
+>>>>>>> 423c3a4a183e4ddd7e57e58c2f3853b8b2c40cc9
 }

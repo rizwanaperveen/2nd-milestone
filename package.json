@@ -1,7 +1,11 @@
 {
   "name": "2nd-milestone",
   "version": "0.1.0",
+<<<<<<< HEAD
   "private": false,
+=======
+  "private": true,
+>>>>>>> 423c3a4a183e4ddd7e57e58c2f3853b8b2c40cc9
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

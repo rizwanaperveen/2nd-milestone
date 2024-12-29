@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Girl {
     border-radius: 50%;
     width: 300px;
@@ -43,3 +44,50 @@
         margin-top: 20px;
     }
 }
+=======
+.Girl {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    max-width: 100%; /* Ensure it doesn't overflow on smaller screens */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+    gap: 20px; /* Reduced gap for better fit */
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Add padding for smaller screens */
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center; /* Center text for smaller screens */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    background-color: bisque;
+    max-width: 300px; /* Prevent it from becoming too wide */
+}
+
+@media (max-width: 768px) {
+    .hero {
+        gap: 10px; /* Further reduce gap */
+    }
+
+    .right {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+
+    .Girl {
+        width: 200px; /* Adjust image size */
+        margin-top: 20px;
+    }
+}
+>>>>>>> 423c3a4a183e4ddd7e57e58c2f3853b8b2c40cc9
